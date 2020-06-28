@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.location.voicetest.view.TitleWidget
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text="意见反馈" />
+
+    <EditText
+        android:id="@+id/edit_content"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/border_circle_radius"
+        android:gravity="top"
+        android:hint="请输入要反馈的内容" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/Submission"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#c3c3c3"
+            android:gravity="center"
+            android:text="确认提交"
+            android:textColor="#0000ff"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+</LinearLayout>

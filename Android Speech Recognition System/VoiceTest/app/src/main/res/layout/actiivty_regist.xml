@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <com.location.voicetest.view.TitleWidget
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text="注册" />
+
+    <com.location.voicetest.utils.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/b" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/acet_1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="36dp"
+        android:hint="请输入用户名" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/acet_3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="number"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="16dp"
+        android:hint="请输入手机号" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/acet_2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        android:hint="请输入密码"
+         />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/acbtn_click"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="注册"
+
+        android:textColor="#0000ff"
+        android:textSize="18dp" />
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <com.location.voicetest.view.TitleWidget
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text="语音练习" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chineseprac"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#c3c3c3"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="中文词汇练习"
+            android:textColor="#0000ff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/englishprac"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="#c3c3c3"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="英文词汇练习"
+            android:textColor="#0000ff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/randomprac"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="#c3c3c3"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="随机词汇练习"
+            android:textColor="#0000ff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="good good study\n\nday day up"
+            android:textColor="#0000ff"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</LinearLayout>
